@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="TheJavaShopCrm:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="TheJavaShopCrm.war">
+      <element id="artifact" artifact-name="TheJavaShopCrm:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.hibernate:hibernate:3.2.5.ga" />
+          <element id="library" level="project" name="JPA 2.1-JPA 2.1" />
+          <element id="library" level="project" name="mysql:mysql-connector-java:5.1.35" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
